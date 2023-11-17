@@ -1,10 +1,9 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
+import '@/assets/main.scss' // 先装scss预处理器在导入
 
 const app = createApp(App)
 
